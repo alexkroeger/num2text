@@ -11,8 +11,6 @@ def hundreds(i):
     wrteen=['ten','eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen']
     wrtens=['twenty','thirty','forty','fifty','sixty','seventy','eighty','ninety']
     strnum = str(i)
-    if len(strnum) > 3:
-        sys.exit('Invalid input, integer is too large')
     wrhund = ''
     if len(strnum) == 3:
         if int(strnum[0]) != 0:
